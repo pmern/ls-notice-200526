@@ -1,0 +1,71 @@
+#logo {
+    max-width: 250px;
+    margin: 0 auto;
+}
+
+#footerLogo {
+    max-width: 150px;
+}
+
+header {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    background-color: #efefef;
+    min-height: 100px;
+    border-radius: 3pt;
+    box-shadow: 1px 5px 5px #121212;
+}
+
+footer {
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    justify-content: space-between;
+    background-color: #efefef;
+    /* min-height: 100px; */
+    max-width: 200px;
+    border-radius: 3pt;
+    box-shadow: 1px 5px 5px #121212;
+}
+
+body {
+    background-color: #d0342c;
+    font-family: "Source Sans Pro",sans-serif;
+}
+
+h1 {
+    font-family: "Source Sans Pro", sans-serif;
+    font-size: 20pt;
+    margin: 0 auto;
+    color: #410000;
+}
+
+#notice {
+    margin: 100px auto;
+    max-width: 80%;
+    text-align: center;
+    background: #EFEFEF;
+    border-radius: 5pt;
+    box-shadow: 1px 5px 5px #121212;
+}
+#noticeTitle {
+    padding: 20px;
+}
+#noticeWarning {
+    padding: 20px;
+    font-family: "Source Sans Pro",sans-serif;
+    font-weight: bold;
+    line-height: 1.5;
+    color: #000;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+#copyright {
+    padding: 0 10px 0 0;
+    color: #410000;
+     font-family: "Source Sans Pro",sans-serif;
+}
+
