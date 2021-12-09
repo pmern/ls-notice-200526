@@ -3,7 +3,7 @@ let newTitle = "Title of Memo"
 // Paste New Warning Here
 let newWarning = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
 // Paste New helpful Message for support here
-let newHelp = "We understand this news could be alarming, please refer to the <a href='https://www.lso.ca/home'>Law Society of Ontario</a> for more information and support."
+let newHelp = "We understand this news could be alarming, and we are here to help. Please refer to the <a href='https://www.lso.ca/home'>Law Society of Ontario</a> for more information and support."
 
 let noticeTitle = document.getElementById("noticeTitle");
 
