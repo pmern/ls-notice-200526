@@ -2,6 +2,10 @@
     max-width: 250px;
     margin: 0 auto;
 }
+a {
+    color: #6A0032;
+    font-weight: bold;
+}
 
 #footerLogo {
     max-width: 150px;
@@ -12,7 +16,7 @@ header {
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
-    background-color: #efefef;
+    background-color: #fff;
     min-height: 100px;
     border-radius: 3pt;
     box-shadow: 1px 5px 5px #121212;
@@ -24,7 +28,7 @@ footer {
     flex-wrap: wrap;
     align-items: flex-end;
     justify-content: space-between;
-    background-color: #efefef;
+    background-color: #fff;
     /* min-height: 100px; */
     max-width: 200px;
     border-radius: 3pt;
@@ -32,7 +36,7 @@ footer {
 }
 
 body {
-    background-color: #d0342c;
+    background-color: #6A0032;
     font-family: "Source Sans Pro",sans-serif;
 }
 
@@ -44,28 +48,55 @@ h1 {
 }
 
 #notice {
-    margin: 100px auto;
+    margin: 50px auto;
     max-width: 80%;
     text-align: center;
-    background: #EFEFEF;
+    background: #fff;
     border-radius: 5pt;
     box-shadow: 1px 5px 5px #121212;
 }
 #noticeTitle {
     padding: 20px;
+    border-bottom: .125rem solid #f9cf3b;
+    max-width: 80%;
+    color: #491526;
+    font-size: 1.375rem;
+    font-family: "Source Sans Pro",sans-serif;
+    font-style: normal;
+    text-transform: uppercase;
 }
 #noticeWarning {
     padding: 20px;
     font-family: "Source Sans Pro",sans-serif;
-    font-weight: bold;
     line-height: 1.5;
     color: #000;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+    border-bottom: .125rem solid #f9cf3b;
+    max-width: 80%;
+    margin: 0 auto;
+}
+#helpfulMessage {
+    padding: 20px;
+    font-family: "Source Sans Pro",sans-serif;
+    line-height: 1.5;
+    color: #000;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    max-width: 80%;
+    margin: 0 auto;
 }
 #copyright {
     padding: 0 10px 0 0;
     color: #410000;
      font-family: "Source Sans Pro",sans-serif;
+}
+
+.formTitle {
+    color: #491526;
+    font-size: 1.375rem;
+    font-family: "Source Sans Pro",sans-serif;
+    font-style: normal;
+    text-transform: uppercase;
 }
 
